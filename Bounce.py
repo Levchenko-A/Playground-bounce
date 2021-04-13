@@ -15,7 +15,7 @@ class Ball:
         self.x = starts[0]
         self.y = -3
         self.canvas_height = self.canvas.winfo_height()  # getting current canvas height
-        self.canvas_width = self.canvas.winfo_width()  # getting current canvas height
+        self.canvas_width = self.canvas.winfo_width()  # getting current canvas width
         self.hit_bottom = False  # loss condition at the beginning
 
     def draw(self):
