@@ -1,8 +1,7 @@
 from tkinter import *
 import time
 import random
-import os
-import sys
+
 
 
 # ===> Defining the ball and it's behaviour
